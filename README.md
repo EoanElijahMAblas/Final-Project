@@ -4,5 +4,5 @@
 
 Update:
 - This is an updated Laboratory Activity on Modules 6-7.
-- The topics covered in this update are Semantic Tags up to Pseudo-classes.
+- The topics covered in this update are Semantic Tags up to Pseudo-classes and Transitions.
 - https://github.com/EoanElijahMAblas/Final-Project

@@ -2,8 +2,8 @@ body{
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;
     background-image: url("img/bg.jpg");
-    background-size: 100%;
     background-repeat: repeat-y;
+    background-size: 100%;
     text-shadow: 0 0 10px rgb(145, 194, 226);
     background-attachment: fixed;
 }
@@ -26,6 +26,8 @@ body{
     border-radius: 15px;
     padding: 10px;
     text-align: center;
+    transition-property: border, background-color, transform;
+    transition-duration: .2s;
 }
 .nav-item a{
     color: rgba(0, 0 ,0 , 1);
@@ -33,17 +35,16 @@ body{
     display: block;
 }
 .nav-item:hover{
-    text-decoration: underline;
     border: 3px solid rgba(115, 199, 255, 1);  
     background-color: rgba(255, 255, 255, 0.1);
-}
-.nav-item a:visited{
-    color: rgb(61, 61, 61);
-    text-decoration: underline;
-    background-color: rgba(145, 145, 145, 0.5)
+    transform: scale(1.02);
 }
 .nav-item:visited{
     background-color: rgba(0, 0, 0, 0.5)
+}
+.nav-item a:visited{
+    color: rgb(50, 50, 50);
+    background-color: rgb(60, 60, 60)
 }
 .yap{
     border-radius: 25px;
@@ -54,6 +55,13 @@ body{
     padding-bottom: 20px;
     width: 720px;
     margin-inline: auto;
+    transition-property: border, background-color, transform;
+    transition-duration: .2s;
+}
+.yap:hover{
+    border: 5px solid rgba(115, 199, 255, 0.6);  
+    background-color: rgba(115, 199, 255, 0.6);
+    transform: scale(1.025);
 }
 .footer{
     text-align: left
