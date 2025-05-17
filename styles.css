@@ -4,7 +4,7 @@ body{
     text-align: center;
     font-family: Daikon;
     background-image: url("img/bg.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: 100%;
     text-shadow: 0 0 10px rgba(145, 194, 226, 0.5);
     background-attachment: fixed;
