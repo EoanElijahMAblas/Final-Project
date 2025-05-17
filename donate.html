@@ -22,12 +22,12 @@
         <h2>Donate</h2>
         <p id="yap2">
             <b><form action="thankyou.html">
-                <label for="name">Name (Optional)<span id="error">*</span>:</label>
+                <label for="name">Name (Optional):</label>
                 <input type="text" class="yap2" name="name"><br><br>
-                <label for="acc">Account Number:</label>
-                <input type="tel" class="yap2" name="acc"><br><br>
-                <label for="money">Amount (In PHP):</label>
-                <input type="number" class="yap2" name="money"><br><br>
+                <label for="acc">Account Number<span id="error">*</span>:</label>
+                <input type="tel" class="yap2" name="acc" required><br><br>
+                <label for="money">Amount (In PHP)<span id="error">*</span>:</label>
+                <input type="number" class="yap2" name="money" required><br><br>
                 <input type="submit" class="submit" value="Submit">
               </form></b>
         </p>
