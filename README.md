@@ -13,3 +13,8 @@ Quiz:
 - This is an updated Laboratory Activity on Modules 8-10.
 - The topics covered in this update are all the javascript topics.
 - https://github.com/EoanElijahMAblas/Final-Project
+
+Signup Form:
+- This is an updated Laboratory Activity on Modules 11-14.
+- The topics covered in this update are all the HTML topics.
+- https://github.com/EoanElijahMAblas/Final-Project
