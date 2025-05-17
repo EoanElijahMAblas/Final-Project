@@ -1,0 +1,22 @@
+.yap4{
+    border-radius: 5px;
+    background: rgba(115, 199, 255, 0.5);
+    border: 3px solid rgba(4, 8, 15, 0.75);  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 720px;
+    margin-inline: auto;
+    transition-property: border, background-color, transform;
+    transition-duration: .2s;
+}
+.yap5{
+    border: 3px solid rgba(0, 0, 0, 0.69);
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+.yap5:hover{
+    border: 3px solid rgba(4, 8, 15, 0.75); 
+    transform: scale(1.01);
+}

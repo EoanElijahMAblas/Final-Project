@@ -115,7 +115,7 @@ input, textarea, button{
     animation: rbanim 1s steps(7) infinite;
     margin-inline: auto;
 }
-@keyframes rbanim {
+@keyframes rbanim{
     from{background-position-x:0px;}
     to{background-position-x:-1400px;}
 }
@@ -129,13 +129,13 @@ article:only-of-type{
 #error{
     color: red;
 }
-#logo {
+#logo{
     position: fixed;
     left: 20px;
     top: 20px;
     height: 116px;
 }
-#quiz {
+#quiz{
     text-align: justify;
     padding-left: 180px;
     padding-right: 180px;
@@ -158,15 +158,15 @@ article:only-of-type{
     margin-right: 30px;
     margin-bottom: 15px;
 }
-.correct {
+.correct{
     color: green;
     font-weight: bold;
 }
-.incorrect {
+.incorrect{
     color: red;
     font-weight: bold;
 }
-.option-btn {
+.option-btn{
     display: block;
     margin: 5px 0;
     padding: 10px;
@@ -180,6 +180,32 @@ article:only-of-type{
     transition-duration: .2s;
     background-color: rgba(115, 199, 255, 0)
 }
-.option-btn:hover {
+.option-btn:hover{
     transform: scale(1.01);
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  background-image: url('img/Sheet.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.icon.globe{
+  background-position: 0 0;
+}
+
+.icon.sun{
+  background-position: -34px 0;
+}
+
+.icon.inq{
+  background-position: -68px 0;
+}
+
+.icon.yt{
+    background-position: -102px 0;
 }
